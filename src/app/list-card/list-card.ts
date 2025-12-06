@@ -10,8 +10,23 @@ import { Titulo } from "../titulo/titulo";
 })
 export class ListCard {
   produtos = [
-    { name: "transformers", description: "um bom filme"},
-    { name: "transformers", description: "um bom filme"},
-    { name: "transformers", description: "um bom filme"},
+    { name: "transformers", description: "um bom filme" },
+    { name: "transformers", description: "um bom filme" },
+    { name: "transformers", description: "um bom filme" },
+    { name: "transformers", description: "um bom filme" },
+    { name: "transformers", description: "um bom filme" },
+    { name: "transformers", description: "um bom filme" },
+    { name: "transformers", description: "um bom filme" },
+    { name: "transformers", description: "um bom filme" },
+    { name: "transformers", description: "um bom filme" },
+    { name: "transformers", description: "um bom filme" },
+  ]
+
+  celulares = [
+    { name: "Samsung A06", description: "Um celular barato", price: "799,90" },
+    { name: "Samsung A16", description: "Um celular", price: "1.099,90" },
+    { name: "Samsung A26", description: "Um celular custo benefício ótimo", price: "1.399,90" },
+    { name: "Samsung A56", description: "Um celular intermediário completo", price: "1.999,90" },
+    { name: "Samsung S24 FE", description: "Um celular topo de linha completo", price: "2.399,90" },
   ]
 }
