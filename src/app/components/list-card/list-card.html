@@ -1,12 +1,16 @@
 <app-titulo />
+<div class="max-w-[400px] w-full flex justify-between mx-auto bg-gray-200 p-2 rounded-xl items-center">
+    <span class="font-bold text-3xl">{{number_to_increment}}</span>
+    <app-button (click)="increment_number()">Clique aqui para incrementar</app-button>
+</div>
 <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-2 mt-3">
     @for (produto of produtos; track produto.name) {
-        <app-card [produto]="produto" />
+    <app-card [produto]="produto" />
     }
 </section>
 <app-titulo />
 <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-2 mt-3">
     @for (produto of celulares; track produto.name) {
-        <app-card [produto]="produto" />
+    <app-card [produto]="produto" />
     }
 </section>

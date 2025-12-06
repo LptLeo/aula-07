@@ -1,9 +1,7 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Navbar } from "./navbar/navbar";
-import { Card } from "./card/card";
-import { ListCard } from "./list-card/list-card";
-import { Titulo } from "./titulo/titulo";
+import { Navbar } from "./components/navbar/navbar";
+import { ListCard } from "./components/list-card/list-card";
 
 @Component({
   selector: 'app-root',
